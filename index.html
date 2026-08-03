@@ -219,9 +219,9 @@
 </script>
 
 ...
-  <audio id="bgMusic" src="about_you.mp3" loop></a...
+ <audio id="bgMusic" src="about_you.mp3" loop autoplay muted controls></audio>
   <script>
-    document.body.addEventListener("click", () =>
+    document.body.addEventListener("click", () => {
     document.getElementById("bgMusic").play();
   }, { once: true });
   </script>
